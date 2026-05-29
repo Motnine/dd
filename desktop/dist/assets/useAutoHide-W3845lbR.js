@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{f as t}from"./dnd-kit-z7amBIFk.js";var n=e(t(),1);function r(e,t=1500){let[r,i]=(0,n.useState)(e);return(0,n.useEffect)(()=>{if(!e){i(!1);return}i(!0);let n=window.setTimeout(()=>i(!1),t);return()=>window.clearTimeout(n)},[e,t]),r}export{r as t};

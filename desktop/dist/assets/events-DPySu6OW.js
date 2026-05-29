@@ -1,0 +1,1 @@
+import{g as e,s as t}from"./api-Bp0_syaa.js";function n(n,r,i){if(!r)return;let a=e.getState().user?.urn;if(!a)return;let o={scUserId:a,scTrackId:r,eventType:n};i!=null&&Number.isFinite(i)&&(o.positionPct=Math.max(0,Math.min(1,i))),t(`/events`,{method:`POST`,body:JSON.stringify(o)}).catch(()=>{})}export{n as t};

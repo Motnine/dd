@@ -1,0 +1,1 @@
+import{_ as e}from"./radix-kaQUN1Qt.js";var t=e(),n={sm:`rounded`,md:`rounded-lg`,lg:`rounded-2xl`,full:`rounded-full`};function r({className:e=``,rounded:r=`md`}){return(0,t.jsx)(`div`,{className:`skeleton-shimmer ${n[r]} ${e}`})}export{r as t};

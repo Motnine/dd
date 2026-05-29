@@ -1,0 +1,1 @@
+import{v as e}from"./tauri-B60OuSgW.js";import{Ln as t,Xt as n}from"./index-D76-tzOq.js";e(`tray-action`,e=>{let r=t.getState();switch(e.payload){case`play_pause`:r.togglePlay();break;case`next`:r.next();break;case`prev`:n();break}});
